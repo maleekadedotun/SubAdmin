@@ -79,7 +79,7 @@ body{
   width: 200px; /* Set the width according to your design */
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: gray;
+  background-color: lightgrey;
   opacity: 0.6;
 }
 .search-icon {
