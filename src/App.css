@@ -1,0 +1,107 @@
+/* .dashboard-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+} */
+
+body{
+  overflow: hi dden;
+
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row; /* Flex container for Sidebar and main content */
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px; /* Set the width of the sidebar */
+  padding: 10px;
+  border: solid black 1px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column; /* Column layout for Navbar and content */
+  flex: 1; /* Takes remaining width */
+  background-color: #fff;
+}
+
+.navbar {
+  /* width: 9 0%; */
+  display: flex;
+  height: 32px;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #333;  */
+  color: white; /* Optional: text color */
+  padding: 20px;
+  color: #333;
+  font-size: 8px;
+  /* border: solid black 1px; */
+  margin: aut o;
+}
+.dashboard {
+  display: flex;
+  flex-direction: column;  /* Stacks the items vertically */
+  align-items: flex-start; /* Aligns the items to the left */
+  font-size: 15px;
+}
+
+.dashboard a {
+  color: black;          /* Removes the default link color and sets text color to black */
+  text-decoration: none; /* Removes the default underline */
+  padding-bottom: 10px;  /* Adds equal padding to the bottom of each link */
+}
+.nav{
+  display: flex;
+  /* border: solid black 1px; */
+}
+.dash{
+  color: gray;
+}
+.forwardSlash{
+  padding-left: 10px;
+}
+
+.home{
+  padding-left: 10px;
+
+}
+.search-input-container {
+  position: relative;
+  
+}
+
+.navInput {
+  padding-left: 40px; /* Space for the icon */
+  width: 200px; /* Set the width according to your design */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: gray;
+  opacity: 0.6;
+}
+.search-icon {
+  height: 30px;
+  width: 20px;
+  position: absolute;
+  left: 10px; /* Adjust according to where you want the icon */
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the icon */
+}
+
+.list {
+  height: 30px;
+  width: 20px;
+  position: absolute;
+  right: 20px; /* Adjust according to where you want the icon */
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the icon */
+}
+
+
+
+
+
+

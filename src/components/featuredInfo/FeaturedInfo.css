@@ -1,0 +1,100 @@
+.featured {
+    width: 100%;
+    display: fl ex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .over {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center; 
+    padding-bottom: 30px;
+    width: 95%; 
+    margin: auto;
+  }
+  
+  .today {
+    margin-left: auto; 
+    padding: 5px 10px; 
+  }
+
+  .card2{
+    display: flex;
+  }
+  
+  .featuredItem {
+    flex: 1;
+    width: 202px;
+    height: 90px;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .featuredItem.rev{
+    background-color: #EDEEFC;
+  }
+  .featuredItem.total{
+    background-color: #E6F1FD;
+  }
+  .featuredItem.payout{
+    background-color: #EDEEFC;
+  }
+  .featuredItem.product{
+    background-color: #E6F1FD;
+  }
+  
+  .featuredMoneyContainer{
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .featuredMoney{
+      font-size: 30px;
+      font-weight: 600;
+  }
+  
+  .featuredMoneyRate{
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+  }
+  
+  .featuredIcon{
+      font-size: 14px;
+      margin-left: 5px;
+      color: green;
+  }
+  
+  .featuredIcon.negative{
+      color: red;
+  }
+  
+  .featuredSub{
+      font-size: 15px;
+      color: gray;
+  }
+
+  .mark {
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 30px; 
+    height: 30px; 
+  }
+  .circle {
+    background-color: red;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 30px; 
+    height: 30px;
+  }
+  
